@@ -8,6 +8,12 @@ func DoubleUint64(a uint64) uint64 {
 	return a * 2
 }
 
+// DoubleUint uses a uint as an argument for testing purposes. It returns 2x
+// the argument.
+func DoubleUint(a uint) uint {
+	return a * 2
+}
+
 // MergeInts uses a variadic argument for testing purposes.  It also contains 
 // another argument of the same type to test for deduplication of converters.
 // It simply mashes all the arguments together into a giant string.
